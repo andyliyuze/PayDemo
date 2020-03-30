@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{FD32CD6B-EF7F-471E-92AB-7AF55C1840B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Checkout2", "Checkout2\Checkout2.csproj", "{C1D68EAA-1DA0-47B5-885B-EE685B81E102}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{16C79753-EF48-43C6-A881-DB3C1937C164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paypal", "paypal\paypal.csproj", "{77B9F57B-8D80-4573-A138-EAD161AF26E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paypalWeb", "paypalWeb\paypalWeb.csproj", "{BBF12BEA-C10E-497A-890E-52795217947C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD32CD6B-EF7F-471E-92AB-7AF55C1840B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD32CD6B-EF7F-471E-92AB-7AF55C1840B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD32CD6B-EF7F-471E-92AB-7AF55C1840B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD32CD6B-EF7F-471E-92AB-7AF55C1840B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D68EAA-1DA0-47B5-885B-EE685B81E102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D68EAA-1DA0-47B5-885B-EE685B81E102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D68EAA-1DA0-47B5-885B-EE685B81E102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D68EAA-1DA0-47B5-885B-EE685B81E102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16C79753-EF48-43C6-A881-DB3C1937C164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16C79753-EF48-43C6-A881-DB3C1937C164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16C79753-EF48-43C6-A881-DB3C1937C164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16C79753-EF48-43C6-A881-DB3C1937C164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B9F57B-8D80-4573-A138-EAD161AF26E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B9F57B-8D80-4573-A138-EAD161AF26E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B9F57B-8D80-4573-A138-EAD161AF26E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B9F57B-8D80-4573-A138-EAD161AF26E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF12BEA-C10E-497A-890E-52795217947C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF12BEA-C10E-497A-890E-52795217947C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF12BEA-C10E-497A-890E-52795217947C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF12BEA-C10E-497A-890E-52795217947C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C68E861-1EFD-4680-85E2-08022C3D5A09}
+	EndGlobalSection
+EndGlobal

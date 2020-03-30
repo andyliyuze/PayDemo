@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <form action="https://sandbox.2checkout.com/checkout/purchase" method="post">
+
+        <input type='hidden' name='sid' value='901421388' />
+        <input type='hidden' name='mode' value='2CO' />
+        <input type='hidden' name='li_0_type' value='product' />
+        <input type='hidden' name='li_0_name' value='invoice123' />
+        <input type='hidden' name='li_0_price' value='25.99' />
+        <input type='hidden' name='li_0_tangible' value='Y' />
+        <input type='hidden' name='li_1_type' value='shipping' />
+        <input type='hidden' name='li_1_name' value='Express Shipping' />
+        <input type='hidden' name='li_1_price' value='13.99' />
+        <input type='hidden' name='card_holder_name' value='Checkout Shopper' />
+        <input type='hidden' name='street_address' value='123 Test Address' />
+        <input type='hidden' name='street_address2' value='Suite 200' />
+        <input type='hidden' name='city' value='Columbus' />
+        <input type='hidden' name='state' value='OH' />
+        <input type='hidden' name='zip' value='43228' />
+        <input type='hidden' name='country' value='USA' />
+        <input type='hidden' name='ship_name' value='Checkout Shopper' />
+        <input type='hidden' name='ship_street_address' value='123 Test Address' />
+        <input type='hidden' name='ship_street_address2' value='Suite 200' />
+        <input type='hidden' name='ship_city' value='Columbus' />
+        <input type='hidden' name='ship_state' value='OH' />
+        <input type='hidden' name='ship_zip' value='43228' />
+        <input type='hidden' name='ship_country' value='USA' />
+        <input type='hidden' name='email' value='example@2co.com' />
+        <input type='hidden' name='phone' value='614-921-2450' />
+        <input name='submit' type='submit' value='Checkout' />
+    </form>
+
+    <form action='https://sandbox.2checkout.com/checkout/purchase' method='post'>
+        <input type='hidden' name='sid' value='901421388'>
+        <input type='hidden' name='quantity' value='1'>
+        <input type='hidden' name='product_id' value='1'>
+        <label>Quantity</label>
+        <input name='quantity' type='text' size='5'>
+        <input name='submit' type='submit' value='Buy from 2CO'>
+    </form>
+    <span>2Checkout.com Inc. (Ohio, USA) is a payment facilitator for goods and services provided by SANDBOX.</span>
+
+
+    <!--//  <script src="https://www.2checkout.com/static/checkout/javascript/direct.min.js"></script>
+      <script>
+      var myCallback = function(data) {
+      console.log(JSON.stringify(data));
+      // Example callback data
+      // {"event_type":"checkout_loaded"}
+      // {"event_type":"checkout_closed"}
+      };
+      (function() {
+      inline_2Checkout.subscribe('checkout_loaded', myCallback);
+      inline_2Checkout.subscribe('checkout_closed', myCallback);
+      }());</script>-->
+</body>
+</html>
